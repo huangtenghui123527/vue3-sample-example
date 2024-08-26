@@ -1,0 +1,16 @@
+version = 1
+
+[[analyzers]]
+name = "javascript"
+
+  [analyzers.meta]
+  plugins = ["vue"]
+  environment = [
+    "jquery",
+    "nodejs",
+    "browser",
+    "mongo",
+    "cypress",
+    "vitest",
+    "jasmine"
+  ]
